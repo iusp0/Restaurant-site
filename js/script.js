@@ -2,6 +2,7 @@ const owl = $('.owl-carousel');
 
 owl.owlCarousel({
 	loop: true,
+	center: true,
 	items: 5.4,
 	responsive:{ //Адаптация в зависимости от разрешения экрана
 		1600:{
